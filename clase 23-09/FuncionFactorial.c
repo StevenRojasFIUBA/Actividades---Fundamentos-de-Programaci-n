@@ -2,27 +2,29 @@
 
 int factorial(int n)
 {
+    int resultado = 0;;
+
     //Comprueba que sea positivo
     if(n < 0)
     {
-        return 0;
+        resultado = 0;
     } 
-
     //Calcula el factorial, si es 0 devuelve 1
-    if(n != 0)
+    else if(n > 0)
     {
         for(int i = n-1; i > 0; i--)
         {
-            n *= i;
+             n *= i;
         }
         
+        resultado = n;
     }
     else
     {
-        n = 1;
+        resultado = 1;
     }
 
-    return n;
+    return resultado;
 }
 
 
