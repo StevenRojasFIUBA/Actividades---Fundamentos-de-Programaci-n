@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 23-09",
-      "program": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 23-09/build/Debug/outDebug",
+      "cwd": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/GuiaProgramacionModular/Ejercicio1",
+      "program": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/GuiaProgramacionModular/Ejercicio1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
