@@ -11,6 +11,7 @@ void Mensaje(bool condicion, int numero)
     {
         printf("No es multiplo de: %i\n", numero);
     }
+
 }
 
 
