@@ -64,7 +64,8 @@ int SumaDiagonalSecundaria(int mat[3][3], int tamanio)
 }
 
 
-int main() {
+int main() 
+{
 
     int Suma1 = 0;
     int Suma2 = 0;
