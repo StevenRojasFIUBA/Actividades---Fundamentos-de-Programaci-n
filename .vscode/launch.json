@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 30-09/Practica/Ejercicio2",
-      "program": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 30-09/Practica/Ejercicio2/build/Debug/outDebug",
+      "cwd": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 30-09/Teorica",
+      "program": "/home/stevenisaac/Documentos/Fundamentos de Programacion/Practica/Actividades/Actividades---Fundamentos-de-Programaci-n/clase 30-09/Teorica/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

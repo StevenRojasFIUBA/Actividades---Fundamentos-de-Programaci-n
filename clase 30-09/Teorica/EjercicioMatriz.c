@@ -63,6 +63,38 @@ int SumaDiagonalSecundaria(int mat[3][3], int tamanio)
     return resultado;
 }
 
+void InicializarMatriz(int matriz[3], int tamanio)
+{
+    for(int i = 0; i < tamanio; i++)
+    {
+        matriz[i] = 0;
+    }
+}
+
+void SumaFilas(int mat[3][3], int suma[3], int tamanio)
+{
+
+    for (int i = 0; i < tamanio; i++)
+    {    
+        for (int j = 0; j < tamanio; j++) 
+           {
+              suma[i] += mat[i][j];
+           }
+
+    }
+}
+
+void ImprimirSuma(int matriz[3], int tamanio)
+{
+    int i;
+
+    for (i = 0; i < tamanio; i++)
+    {
+        printf("Suma de la fila %d : %d\n", i, matriz[i]);
+    }
+    
+}
+
 
 int main() 
 {
@@ -72,7 +104,7 @@ int main()
     
     // Definición de una matriz de 3x3
     int matriz[3][3];
-    int MatrizSuma[3][3];
+    int MatrizSuma[3];
 
     // Llamada a la función pasando la matriz como parámetro
     poner_en_cero(matriz, 3, 3);
@@ -91,7 +123,9 @@ int main()
     printf("La suma de la diagonal secundaria: %d\n", Suma2);
 
     //PUNTO D)
-
+    InicializarMatriz(MatrizSuma, 3);
+    SumaFilas(matriz, MatrizSuma, 3);
+    ImprimirSuma(MatrizSuma, 3);
 
     return 0;
 }
