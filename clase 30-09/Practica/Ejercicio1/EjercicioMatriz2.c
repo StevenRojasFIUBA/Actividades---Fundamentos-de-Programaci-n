@@ -64,20 +64,18 @@ void NotasMayoresPromedio(Tvec vec, int ml, float promedio)
 
 int main()
 {
-
     Tvec Vec;
     int ML=0; 
-
     float promedio = 0;
-
 
     CargarNotas(Vec, &ML);
     
+
     promedio = PromedioNotas(Vec, ML);
     printf("El promedio de las notas es: %0.2f\n", promedio);
 
-    NotasMayoresPromedio(Vec, ML, promedio);
 
+    NotasMayoresPromedio(Vec, ML, promedio);
     return 0;
 }
 
